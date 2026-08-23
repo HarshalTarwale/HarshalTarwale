@@ -1,0 +1,39 @@
+# Save this at:  .github/workflows/profile-summary-cards.yml
+#
+# Generates the analytics cards INTO your own repo (folder:
+# profile-summary-card-output/). Because the SVGs live in your repo
+# instead of on someone else's server, they can never rate-limit or
+# 404 the way the old stats cards did.
+#
+# Requires a Personal Access Token stored as the repo secret
+# SUMMARY_GITHUB_TOKEN — the default GITHUB_TOKEN can't read the
+# contribution/commit-language data these cards need.
+
+name: Profile Summary Cards
+
+on:
+  schedule:
+    - cron: "0 18 * * *"   # once a day
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-profile-summary-cards
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "main"
+          # India is UTC+5:30 — 5 is the nearest whole offset.
+          # This only affects the "productive time" clock card.
+          UTC_OFFSET: 5
+          EXCLUDE: ""
+          AUTO_PUSH: true

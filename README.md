@@ -2,13 +2,11 @@
      HARSHAL TARWALE · GITHUB PROFILE README
      Palette: crimson #E23636 · deep blue #1E3A8A · void #0D1117
 
-     ⚠️  TO SWAP IN YOUR OWN BANNER ART:
-     Replace the <img> on the next line with:
-     <img src="assets/banner.png" width="100%" />
-     (see the setup notes for exact sizing)
+     ⚠️  BANNER ART lives in assets/banner.png and assets/footer.png.
+     To go back to the auto-generated wave instead, see setup notes.
      ═══════════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E23636,45:8B0000,100:1E3A8A&height=230&section=header&text=HARSHAL%20TARWALE&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=Full%20Stack%20Developer%20%C2%B7%20UI%2FUX%20%C2%B7%20Motion&descAlignY=56&descSize=18" width="100%" />
+<img src="assets/banner.png" width="100%" alt="Harshal Tarwale — Full Stack Developer" />
 
 <div align="center">
 
@@ -38,7 +36,7 @@ const harshal = {
   frontend   : ["Next.js", "React", "TypeScript", "Tailwind", "GSAP"],
   backend    : ["Node", "Express", "Postgres", "Drizzle", "WebSockets"],
   obsession  : "interfaces that feel expensive",
-  philosophy : "if it can be animated, it will be animated",
+  shipped    : "client sites, end to end",
   status     : "open for paid internships 🚀"
 };
 ```
@@ -111,26 +109,26 @@ const harshal = {
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=HarshalTarwale&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=E23636&icon_color=4D9FFF&text_color=C9D1D9&ring_color=E23636" />
-<img width="41%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HarshalTarwale&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=E23636&text_color=C9D1D9" />
+<img width="88%" src="https://raw.githubusercontent.com/HarshalTarwale/HarshalTarwale/main/profile-summary-card-output/github_dark/0-profile-details.svg" alt="profile details" />
 
 <br/><br/>
 
-<img width="70%" src="https://streak-stats.demolab.com?user=HarshalTarwale&hide_border=true&background=0D1117&stroke=E23636&ring=E23636&fire=E23636&currStreakLabel=4D9FFF&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E" />
+<img width="44%" src="https://raw.githubusercontent.com/HarshalTarwale/HarshalTarwale/main/profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="repos per language" />
+<img width="44%" src="https://raw.githubusercontent.com/HarshalTarwale/HarshalTarwale/main/profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="most commits by language" />
 
 <br/><br/>
 
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=HarshalTarwale&bg_color=0D1117&color=E23636&line=4D9FFF&point=FFFFFF&area=true&area_color=E23636&hide_border=true&custom_title=Contribution%20Activity" />
+<img width="44%" src="https://raw.githubusercontent.com/HarshalTarwale/HarshalTarwale/main/profile-summary-card-output/github_dark/3-stats.svg" alt="stats" />
+<img width="44%" src="https://raw.githubusercontent.com/HarshalTarwale/HarshalTarwale/main/profile-summary-card-output/github_dark/4-productive-time.svg" alt="productive time" />
 
 <br/><br/>
 
-<img width="95%" src="https://github-profile-trophy.vercel.app/?username=HarshalTarwale&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" />
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=HarshalTarwale&bg_color=0D1117&color=E23636&line=4D9FFF&point=FFFFFF&area=true&area_color=E23636&hide_border=true&custom_title=Contribution%20Activity" alt="contribution activity" />
 
 <br/><br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HarshalTarwale/HarshalTarwale/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HarshalTarwale/HarshalTarwale/output/snake.svg" />
   <img alt="contribution animation" src="https://raw.githubusercontent.com/HarshalTarwale/HarshalTarwale/output/snake.svg" width="100%" />
 </picture>
 
@@ -152,31 +150,6 @@ const harshal = {
 
 </div>
 
-<!-- ═══════════════ AUTO-GENERATED ═══════════════ -->
-<!-- Everything between the markers below is rewritten automatically
-     by .github/workflows/update-projects.yml — do not edit by hand. -->
-
-### 🧩 `latest builds`
-
-<div align="center">
-
-<!-- PROJECTS:START -->
-
-| Project | Stack | Live |
-|:---|:---|:---:|
-| **[Vedic Group Of Institutions](https://github.com/HarshalTarwale/Vedic-Group-of-Institutions)** | `JavaScript` | [**↗**](https://harshaltarwale.github.io/Vedic-Group-of-Institutions/) |
-| **[Apple Vision Pro Website Clone](https://github.com/HarshalTarwale/Apple-Vision-Pro-Website-Clone)**<br/><sub>Apple Vision Pro Landing Page A pixel-perfect recreation of Apple's Vision Pro website featuring...</sub> | `CSS3` `GSAP` `HTML5` `JavaScript` | [**↗**](https://harshaltarwale.github.io/Apple-Vision-Pro-Website-Clone/) |
-| **[Premium Watch Website](https://github.com/HarshalTarwale/Premium-Watch-Website)**<br/><sub>Titan is a modern watch e-commerce web application built with React. It includes product browsing,...</sub> | `Clerk` `ScrollTrigger` `Lenis` `QR Codes` | [**↗**](https://harshaltarwale.github.io/Premium-Watch-Website/) |
-| **[Ochi Website Clole](https://github.com/HarshalTarwale/Ochi-Website-Clole)**<br/><sub>A modern clone of Ochi Design's award-winning website built with React, Vite, and Tailwind CSS....</sub> | `Framer Motion` `GSAP` `JavaScript` `React` | [**↗**](https://harshaltarwale.github.io/Ochi-Website-Clole/) |
-| **[Employee Management System](https://github.com/HarshalTarwale/Employee-Management-System)**<br/><sub>🚧 WORK IN PROGRESS 🚧 The system to manage the employee and admin data like tasks, complicated task,...</sub> | `JavaScript` | — |
-| **[Cynthia Ugwu Web Clone](https://github.com/HarshalTarwale/Cynthia-Ugwu-Web-clone-)**<br/><sub>Product Designer Portfolio Clone featuring smooth scrolling, custom mouse follower, and interactive...</sub> | `CSS3` `GSAP` `HTML5` `JavaScript` | [**↗**](https://harshaltarwale.github.io/Cynthia-Ugwu-Web-clone-/) |
-
-<!-- PROJECTS:END -->
-
-<sub>↻ auto-updated every 12 hours</sub>
-
-</div>
-
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:E23636,50:8B0000,100:1E3A8A&height=4&section=header" width="100%" />
 
 <!-- ═══════════════ CURRENTLY ═══════════════ -->
@@ -195,12 +168,8 @@ const harshal = {
 
 <div align="center">
 
-### *"Any pixel that can be animated, will be animated."*
+<!-- ⚠️  FOOTER ART -->
 
-<br/>
-
-<!-- ⚠️  FOOTER ART — swap with assets/footer.png if you make your own -->
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,55:8B0000,100:E23636&height=170&section=footer&text=thanks%20for%20stopping%20by&fontSize=26&fontColor=ffffff&fontAlignY=70" width="100%" />
+<img src="assets/footer.png" width="100%" alt="Thanks for stopping by" />
 
 </div>

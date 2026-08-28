@@ -123,10 +123,6 @@ const harshal = {
 
 <br/><br/>
 
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=HarshalTarwale&bg_color=0D1117&color=E23636&line=4D9FFF&point=FFFFFF&area=true&area_color=E23636&hide_border=true&custom_title=Contribution%20Activity" alt="contribution activity" />
-
-<br/><br/>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HarshalTarwale/HarshalTarwale/output/snake-dark.svg" />
   <img alt="contribution animation" src="https://raw.githubusercontent.com/HarshalTarwale/HarshalTarwale/output/snake.svg" width="100%" />
